@@ -1,0 +1,222 @@
+body, html {
+    height: 100%;
+}
+body {
+    color: rgb(89, 92, 94);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 100%;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    color: #23A7AB;
+}
+iframe {
+    padding: 10px;
+}
+.nav-border {
+    padding: 20px 10px 100px 10px;
+    margin: 20px 0px;
+}
+.logo {
+    width: 25%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.nav-border ul {
+    color:rgb(89, 92, 94);
+    list-style-type: none;
+    margin: 0;
+    float: right;
+}
+.nav-border li {
+    display: inline;
+    margin: 10px;
+}
+.nav-border a {
+    color:rgb(89, 92, 94);
+}
+.home-title {
+    text-align: center;
+    line-height: 1;
+    padding-bottom: 0;
+    margin-top: 40px;
+}
+.home-subtitle {
+    text-align: center;
+    color:rgb(89, 92, 94);
+    line-height: 1;
+    margin-top: 70px;
+    padding-top: 90px;
+}
+.header-border {
+    background: url(kisspng-technology-roadmap-road-map-vector-color-road-location-5a9619fd1568e0.0390728315197864930877.png.png); 
+    height: 50%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-blog {
+    background: url(blogging-464042_1920.jpg); 
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-blogpost {
+    background: url(tieners\ geld\ 2.jpg); 
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-border {
+    border-style: solid;
+    border-color: white;
+    margin: auto;
+    padding: 20px;
+}
+.main-blogpost {
+    border-style: solid;
+    border-color: white;
+    margin: auto;
+    padding: 20px;
+}
+.main-blogpost h5 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    border-style: solid;
+    border-color:gainsboro;
+    border-width: 10px;
+    box-sizing: border-box;
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container h4 {
+    color: #AD718C;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    padding: 0px;
+    margin: 20px;
+}    
+.container-blog {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    border-style: solid;
+    border-color:gainsboro;
+    border-width: 10px;
+    box-sizing: border-box;
+    background-color: #666;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container-blog p{
+    font-size: 13px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+form {
+    margin-left: 65px;
+}
+.footer-border {
+    background-color: #23A7AB;
+    margin: 0;
+    padding: 10px;
+}
+.footer-border p {
+    color: white;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    body {
+        line-height: 1.25;
+    }    
+    .logo {
+        width: 15%;
+    }
+    .home-title {
+        text-align: center;
+    }
+    .home-subtitle {
+        text-align: center;
+        color:rgb(89, 92, 94);
+        line-height: 1;
+        margin-top: 20px;
+        padding-top: 30px;
+    } 
+    .container-blog {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; 
+    }
+    .container-blog div {
+        margin: 5px;
+        padding: 10px;  
+    }
+    .flex-item-right, .flex-item-center-1, .flex-item-center-2 .flex-item-left {
+        flex: 25%;
+    }       
+    form {
+        margin-left: 265px;
+    }
+}    
+@media (min-width: 1024px) {
+    body {
+        line-height: 1.5;
+    }
+    .logo {
+        width: 10%;
+    }
+    .home-subtitle {
+        text-align: center;
+        color:rgb(89, 92, 94);
+        line-height: 1;
+        margin-top: 30px;
+        padding-top: 40px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    } 
+    .container h4 {
+        font-size: 60px;
+        text-align: center;
+        padding: 0px 20px;
+        margin: 0;
+    } 
+    .container p {
+        padding: 0px 20px;
+        margin: 0;
+    }    
+    .container-blog {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    } 
+    .container-blog div {
+        margin: 5px;
+        padding: 5px;  
+    }     
+ .footer-border {
+     margin-top: 60px;
+    }   
+form {
+        margin-left: 425px;
+    }  
+}
